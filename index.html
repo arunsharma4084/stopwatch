@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="./globalstyles.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="stopwatch-wrapper">
+        <h1 class="header_title">Stopwatch</h1>
+        <!-- <p class="stopwatch">
+          <span class="minutes">00 </span>
+           :
+          <span class="seconds">00 </span>
+          :
+          <span class="tens">00</span>
+        </p> -->
+        <div class="stopwatch">00:00:00:00</div>
+        <div class="buttons">
+            <button class="button start" type="button">Start</button>
+            <button class="button stop" type="button">Stop</button>
+            <button class="button reset" type="reset">Reset</button>
+        </div>
+    </div>
+    <script type="module" src="./stopwatch.js"></script>
+</body>
+
+</html>
